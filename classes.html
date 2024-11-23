@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #2c5364, #0f2027);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 20px 10px;
+      background: #1e293b;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #4ade80;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: #1f2937;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h2 {
+      color: #60a5fa;
+      margin-bottom: 10px;
+    }
+    .card ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .card ul li {
+      margin: 8px 0;
+      padding: 5px 10px;
+      background: #374151;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #1e293b;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Classes</h1>
+    <p>Classes Are Chosen After Your Origin For Another Buff</p>
+  </header>
+  <div class="container">
+    <!-- Nitwit -->
+    <div class="card">
+      <h2>Nitwit</h2>
+      <ul>
+        <li>No additional perks.</li>
+        <li>Continue without further abilities.</li>
+      </ul>
+    </div>
+    <!-- Archer -->
+    <div class="card">
+      <h2>Archer</h2>
+      <ul>
+        <li><strong>Agility:</strong> Move faster while drawing a bow or crossbow.</li>
+        <li><strong>Precision:</strong> Arrows travel straight without gravity.</li>
+      </ul>
+    </div>
+    <!-- Beastmaster -->
+    <div class="card">
+      <h2>Beastmaster</h2>
+      <ul>
+        <li><strong>Fauna Friends:</strong> Tamed animals gain permanent health buffs.</li>
+        <li><strong>Effective Empathy:</strong> Potion effects you have apply to your tamed animals.</li>
+      </ul>
+    </div>
+    <!-- Blacksmith -->
+    <div class="card">
+      <h2>Blacksmith</h2>
+      <ul>
+        <li><strong>Great Craftsmanship:</strong> Crafted equipment has better durability, efficiency, and damage.</li>
+        <li><strong>Efficient Repairs:</strong> Crafted equipment restores more durability during repairs.</li>
+      </ul>
+    </div>
+    <!-- Cleric -->
+    <div class="card">
+      <h2>Cleric</h2>
+      <ul>
+        <li><strong>Proficient Brewing:</strong> Extended potion effects last even longer with redstone.</li>
+        <li><strong>Potent Brews:</strong> Potions brewed with glowstone are more amplified.</li>
+      </ul>
+    </div>
+    <!-- Cook -->
+    <div class="card">
+      <h2>Cook</h2>
+      <ul>
+        <li><strong>Good Meals:</strong> Cooked food grants additional saturation.</li>
+        <li><strong>Rejuvenating Soup:</strong> Stews provide regeneration effects.</li>
+      </ul>
+    </div>
+    <!-- Explorer -->
+    <div class="card">
+      <h2>Explorer</h2>
+      <ul>
+        <li><strong>Fit:</strong> Sprinting does not consume hunger.</li>
+        <li><strong>Explorer Kit:</strong> Start with a compass, clock, and nine death-proof maps.</li>
+      </ul>
+    </div>
+    <!-- Farmer -->
+    <div class="card">
+      <h2>Farmer</h2>
+      <ul>
+        <li><strong>Green Thumb:</strong> Crops may grow instantly when planted.</li>
+        <li><strong>Bountiful Harvest:</strong> Sometimes harvest double the yield from crops.</li>
+      </ul>
+    </div>
+    <!-- Lumberjack -->
+    <div class="card">
+      <h2>Lumberjack</h2>
+      <ul>
+        <li><strong>Tree Capitator:</strong> Cut down an entire tree using an axe.</li>
+        <li><strong>Replanting:</strong> Logs may drop saplings of the same type when broken.</li>
+      </ul>
+    </div>
+    <!-- Merchant -->
+    <div class="card">
+      <h2>Merchant</h2>
+      <ul>
+        <li><strong>Great Deals:</strong> Receive discounts when trading with villagers.</li>
+        <li><strong>Charisma:</strong> Wandering Traders are more likely to visit.</li>
+      </ul>
+    </div>
+    <!-- Miner -->
+    <div class="card">
+      <h2>Miner</h2>
+      <ul>
+        <li><strong>Vein Mine:</strong> Instantly mine ores and adjacent ores with a pickaxe.</li>
+        <li><strong>Veteran Excavator:</strong> Mining does not consume hunger.</li>
+      </ul>
+    </div>
+    <!-- Rancher -->
+    <div class="card">
+      <h2>Rancher</h2>
+      <ul>
+        <li><strong>More Births:</strong> Animals breed more offspring when nearby.</li>
+        <li><strong>Scavenging:</strong> Gain extra materials from killing mobs.</li>
+      </ul>
+    </div>
+    <!-- Rogue -->
+    <div class="card">
+      <h2>Rogue</h2>
+      <ul>
+        <li><strong>Sneaky:</strong> Your nameplate remains invisible, even when not sneaking.</li>
+        <li><strong>In the Shadows:</strong> Deal more damage while invisible.</li>
+      </ul>
+    </div>
+    <!-- Warrior -->
+    <div class="card">
+      <h2>Warrior</h2>
+      <ul>
+        <li><strong>Shield Wield:</strong> Gain extra protection when blocking with a shield.</li>
+        <li><strong>Wrath Bloodlust:</strong> Gain strength as health decreases.</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Classes Guide. All rights reserved.</p>
+  </footer>
+</body>
+</html>
